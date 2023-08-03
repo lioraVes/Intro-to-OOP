@@ -11,7 +11,7 @@ The user has to provide the program with the arguments:
 
 The user chooses two kind of players, then the players will play a tournament, the program will show how many rounds each player won or if there was a tie.
 
-# Types of Players
+### Types of Players
 Each player has different strategy.
 - human player: this is the user that plays through the console - System.in.
 - whatever player: on each step, chooses random (available) square on the board.
