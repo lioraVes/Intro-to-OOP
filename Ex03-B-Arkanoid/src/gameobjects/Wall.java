@@ -1,0 +1,23 @@
+package src.gameobjects;
+
+import danogl.GameObject;
+import danogl.gui.rendering.Renderable;
+import danogl.util.Vector2;
+
+/**
+ * Wall extends GameObject. The walls of the game.
+ */
+public class Wall extends GameObject {
+    /**
+     * Construct a new Wall instance.
+     *
+     * @param topLeftCorner Position of the object, in window coordinates (pixels).
+     *                      Note that (0,0) is the top-left corner of the window.
+     * @param dimensions    Width and height in window coordinates.
+     * @param renderable    The renderable representing the object. Can be null, in which case
+     *                      the GameObject will not be rendered.
+     */
+    public Wall(Vector2 topLeftCorner, Vector2 dimensions, Renderable renderable) {
+        super(topLeftCorner, dimensions, renderable);
+    }
+}
