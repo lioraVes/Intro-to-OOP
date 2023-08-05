@@ -11,4 +11,6 @@ and to exit the program : exit.
 
 ## Run example
 ![image](https://github.com/lioraVes/OOP/assets/135438143/42662546-0da8-471f-be5c-4ffe1aac56b4)
+![image](https://github.com/lioraVes/OOP/assets/135438143/21b70458-e8ec-4291-b5e5-fec8f0dc6992)
+
 
