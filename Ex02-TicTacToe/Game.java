@@ -79,7 +79,7 @@ public class Game {
                     count++;
                 } else {
                     winMark = board.getMark(i, j);
-                    count = 0;
+                    count = 1;
                 }
                 j++;
             }
@@ -107,7 +107,7 @@ public class Game {
                     count++;
                 } else {
                     winMark = board.getMark(j, i);
-                    count = 0;
+                    count = 1;
                 }
                 j++;
             }
